@@ -1,0 +1,14 @@
+Question 1:
+import numpy as np
+
+marks = np.array(list(map(int, input("Enter 5 marks: ").split())))
+
+print("Average:", np.mean(marks))
+print("Highest:", np.max(marks))
+print("Lowest:", np.min(marks))
+
+Input: 78 65 92 55 84
+Output:
+Average: 74.8
+Highest: 92
+Lowest: 55
